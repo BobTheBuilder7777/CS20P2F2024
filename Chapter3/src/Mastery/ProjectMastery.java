@@ -1,5 +1,6 @@
 package Mastery;
 
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class ProjectMastery {
@@ -8,18 +9,34 @@ public class ProjectMastery {
 	{
 		Scanner userInput = new Scanner(System.in);
 		
+		NumberFormat nf = NumberFormat.getPercentInstance();
+		
 		System.out.print("How much time was spent designing the project application? ");
-		int designing = userInput.nextInt();		
+		double designing = userInput.nextInt();		
 		
 		System.out.print("How much time was spent coding the project application? ");
-		int coding = userInput.nextInt();		
+		double coding = userInput.nextInt();		
 		
 		System.out.print("How much time was spent debugging the project application? ");
-		int debugging = userInput.nextInt();		
+		double debugging = userInput.nextInt();		
 		
 		System.out.print("How much time was spent testing the project application? ");
-		int testing = userInput.nextInt();		
+		double testing = userInput.nextInt();		
 		
+		System.out.print(" ");
+		
+		double total_T = testing + debugging + coding + designing;
+		
+		double design_P = designing / total_T;
+		double coding_P = coding / total_T;
+		double debug_P = debugging / total_T;
+		double testing_P = testing / total_T;
+		
+		System.out.println("Task           % Time");
+		System.out.println("Designing         " + nf.format(design_P));
+		System.out.println("Coding            " + nf.format(coding_P));
+		System.out.println("Debugging         " + nf.format(debug_P));
+		System.out.println("Testing           " + nf.format(testing_P));
 		
 	}
 
