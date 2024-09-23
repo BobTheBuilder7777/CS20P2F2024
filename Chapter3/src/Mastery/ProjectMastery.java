@@ -33,9 +33,9 @@ public class ProjectMastery {
 		double testing_P = testing / total_T;
 		
 		System.out.println("Task           % Time");
-		System.out.println("Designing         " + nf.format(design_P));
+		System.out.println("         " + nf.format(design_P));
 		System.out.println("Coding            " + nf.format(coding_P));
-		System.out.println("Debugging         " + nf.format(debug_P));
+		System.out.println("DebDesigningugging         " + nf.format(debug_P));
 		System.out.println("Testing           " + nf.format(testing_P));
 		
 	}
