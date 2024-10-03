@@ -1,8 +1,8 @@
 /*
 
-Program: GuessingGame.java          Last Date of this Revision: October 2, 2024
+Program: GuessingGame.java          Date: October 2, 2024
 
-Purpose: Create the GuessGame application. The GuessingGame is a number guessing game played between the computer and one player.
+Purpose: Create the GuessingGame application. The GuessingGame is a number guessing game played between the computer and one player.
 
 Author: Rishi Bhalla 
 School: CHHS
@@ -35,10 +35,17 @@ public class GuessingGame {
 		System.out.print("Enter a number between 1 and 20: "); //prompt user to enter a number between 1 and 20
 		guess = input.nextInt(); //input guess number
 		
-		System.out.print("Computer Number:" + secretNum);
-		System.out.print("Player Number:" + guess);
+		System.out.println("Computer Number: " + secretNum); //Display the computer chosen number
+		System.out.println("Player Number: " + guess); //Display the users number
 		
-		
+		if (secretNum == guess) //Check if the user number and computer number are the same
+		{
+			System.out.println("You won"); //if they are the same, than the user wins
+		}
+		else //happens only if secretNum != guess
+		{
+			System.out.println("Better luck next time."); //if they are not the same, the user doesn't win
+		}
 		
 		
 	}
@@ -48,5 +55,20 @@ public class GuessingGame {
 /* Screen Dump
 
 Paste the output of your code here
+
+TestCase1:
+Enter a number between 1 and 20: 10
+Computer Number: 11
+Player Number: 10
+Better luck next time.
+
+TestCase2:
+Enter a number between 1 and 20: 10
+Computer Number: 10
+Player Number: 10
+You won
+
+
+
  
  */
