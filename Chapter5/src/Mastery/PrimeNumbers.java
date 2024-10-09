@@ -40,7 +40,7 @@ public class PrimeNumbers {
 		} 
 		
 	
-		for (i = 2; i <= user_num / 2; ++i)
+		for (i = 2; i <= user_num / 2; ++i) //Take the numbers between 2 and usernum
 		{
 			if (user_num % i == 0) //if the remainder is 0, than that means the number is not a prime
 				
@@ -62,7 +62,21 @@ public class PrimeNumbers {
 	}
 
 }
-	
 
+/* Screen Dump
+
+Paste the output of your code here
+ 
+TestCase1:
+Enter a number. This program will tell you if it is prime or not: 
+11
+Your number is prime.
+	
+TestCase2:
+Enter a number. This program will tell you if it is prime or not: 
+323
+Your number isn't prime.
+
+*/
 		
 
