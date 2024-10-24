@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class MetricConversion {
 
-public static void inchesToCenti(int conversion) {
+	public static void inchesToCenti(int conversion) {
 		
-	
+	user_numb
 			
 	}
 	
-public static void feetToCenti() {
+	public static void feetToCenti() {
 		
 		
 	}
 
-public static void yardsToMeters() {
+	public static void yardsToMeters() {
 	
 	 
 }
 
-public static void milesToKilometers() {
+	public static void milesToKilometers() {
 	
 	 
 }
