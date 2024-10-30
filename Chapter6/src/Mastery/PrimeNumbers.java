@@ -19,7 +19,6 @@ public class PrimeNumbers {
 	
 	public static void isPrime(int user_num) {
 		boolean prime = false;
-		System.out.print(user_num);
 		
 		if (user_num == 1 || user_num == 0) //If the users inputed number is 1, 0 , or a negative number
 		{
@@ -37,6 +36,17 @@ public class PrimeNumbers {
 			
 			}
 		}
+			
+			
+		if (!prime) //if prime is not true
+			{
+				System.out.print("Your number is prime.");
+			}
+			else //if prime is true
+			{
+				System.out.print("Your number isn't prime.");
+			}
+	
 		
 	}
 
@@ -57,15 +67,26 @@ public class PrimeNumbers {
 		
 		
 		
-		if (!prime) //if prime is not true
-		{
-			System.out.print("Your number is prime.");
-		}
-		else //if prime is true
-		{
-			System.out.print("Your number isn't prime.");
-		}
 		
 	}
 
 }
+
+/* Screen Dump
+
+Paste the output of your code here
+
+TestCase1:
+Enter a number. This program will tell you if it is prime or not: 
+92
+Your number isn't prime.
+
+TestCase2:
+Enter a number. This program will tell you if it is prime or not: 
+79
+Your number is prime.
+
+
+
+
+*/
