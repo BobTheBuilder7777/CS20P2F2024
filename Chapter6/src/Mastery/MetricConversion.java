@@ -24,11 +24,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from.");
+		System.out.print("Enter the value you want to convert from.");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input * 2.54;
-		System.out.print("The value " + user_input + " inches is equal to about " + (int)Converted + " centimeters.");
+		System.out.print("The value " + user_input + " inches is equal to about " + (int)Converted + " centimeters."); //display value
 	
 			
 	}
@@ -39,11 +39,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from.");
+		System.out.print("Enter the value you want to convert from.");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input * 30;
-		System.out.print("The value " + user_input + " feet is equal to about " + (int)Converted + " centimeters.");
+		System.out.print("The value " + user_input + " feet is equal to about " + (int)Converted + " centimeters."); //display value
 		
 	}
 
@@ -52,11 +52,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 	
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. ");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input * 0.91;
-		System.out.print("The value " + user_input + " yards is equal to about " + (int)Converted + " meters.");
+		System.out.print("The value " + user_input + " yards is equal to about " + (int)Converted + " meters."); //display value
 }
 
 	public static void milesToKilometers() {
@@ -64,11 +64,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 	
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. ");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input * 1.6;
-		System.out.print("The value " + user_input + " miles is equal to about " + (int)Converted + " kilometers. ");
+		System.out.print("The value " + user_input + " miles is equal to about " + (int)Converted + " kilometers. "); //display value
 }
 
 	public static void centiToInches() {
@@ -76,11 +76,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. ");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input / 2.54;
-		System.out.print("The value " + user_input + " centimeters is equal to about " + (int)Converted + " inches. ");
+		System.out.print("The value " + user_input + " centimeters is equal to about " + (int)Converted + " inches. "); //display value
 }
 	
 	public static void centiToFeet() {
@@ -88,11 +88,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. ");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input / 30;
-		System.out.print("The value " + user_input + " centimeters is equal to about " + (int)Converted + " feet. ");
+		System.out.print("The value " + user_input + " centimeters is equal to about " + (int)Converted + " feet. "); //display value
 }
 	
 	public static void metersToYards() {
@@ -100,11 +100,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. ");//prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input / 0.91;
-		System.out.print("The value " + user_input + " meters is equal to about " + (int)Converted + " yards. ");
+		System.out.print("The value " + user_input + " meters is equal to about " + (int)Converted + " yards. "); //display value
 }
 	
 	public static void kiloToMiles() {
@@ -112,11 +112,11 @@ public class MetricConversion {
 		//Preparing for user input
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the value you want to convert from. ");
+		System.out.print("Enter the value you want to convert from. "); //prompt user for their value
 		int user_input = input.nextInt();
 		
 		double Converted = user_input / 1.6;
-		System.out.print("The value " + user_input + " kilometers is equal to about " + (int)Converted + " miles. ");
+		System.out.print("The value " + user_input + " kilometers is equal to about " + (int)Converted + " miles. "); //display value
 }
 
 
@@ -145,35 +145,35 @@ public class MetricConversion {
 		System.out.println("Enter your choice: ");
 		conversion = input.nextInt(); //Enter choice of conversion
 		
-		if (conversion == 1)
+		if (conversion == 1) //if user entered x value, call x method
 		{
 			inchesToCenti();
 		}
-		if (conversion == 2)
+		if (conversion == 2)//if user entered x value, call x method
 		{
 			feetToCenti();
 		}
-		if (conversion == 3)
+		if (conversion == 3)//if user entered x value, call x method
 		{
 			yardsToMeters();
 		}
-		if (conversion == 4)
+		if (conversion == 4)//if user entered x value, call x method
 		{
 			milesToKilometers();
 		}
-		if (conversion == 5)
+		if (conversion == 5)//if user entered x value, call x method
 		{
 			centiToInches();
 		}
-		if (conversion == 6)
+		if (conversion == 6)//if user entered x value, call x method
 		{
 			centiToFeet();
 		}
-		if (conversion == 7)
+		if (conversion == 7)//if user entered x value, call x method
 		{
 			metersToYards();
 		}
-		if (conversion == 8)
+		if (conversion == 8)//if user entered x value, call x method
 		{
 			kiloToMiles();
 		}

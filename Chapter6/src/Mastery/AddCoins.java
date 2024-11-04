@@ -20,18 +20,18 @@ import java.util.Scanner;
 public class AddCoins { 
 
 	
-	public static void getDollarAmount(double quarters, double dimes, double nickels, double pennies) {
+	public static void getDollarAmount(double quarters, double dimes, double nickels, double pennies) { //GetDollarAmount Method
 		
-		DecimalFormat deca = new DecimalFormat ("#.##");
+		DecimalFormat deca = new DecimalFormat ("#.##"); //Get the correct formating 
 		
-		quarters *= 0.25;
-		dimes *= 0.10;
-		nickels *= 0.05;
-		pennies *= 0.01;
+		quarters *= 0.25; //Math to calculate value of the quarters
+		dimes *= 0.10; //Math to calculate value of the dimes
+		nickels *= 0.05; //Math to calculate value of the nickels
+		pennies *= 0.01; //Math to calculate value of the pennies
 		
 		double amount = quarters + dimes + nickels + pennies; //Calculate amount total
 		
-		System.out.print("Your total is $" + deca.format(amount) );
+		System.out.print("Your total is $" + deca.format(amount) ); //Display total
 		
 	}
 	public static void main(String[] args) {
