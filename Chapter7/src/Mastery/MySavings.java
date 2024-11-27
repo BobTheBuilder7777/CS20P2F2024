@@ -13,10 +13,20 @@ Course: Computer Programming 20
 
 package Mastery;
 
+import java.util.Scanner;
+
 public class MySavings {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		// import for user input
+		
+		System.out.println("Enter your initial balance in dollars: "); //declare initial balance
+		double iBalance = input.nextDouble();
+		
+		//Piggy bank
+		
+		piggybank userbank = new piggybank (iBalance);
 
 	}
 
