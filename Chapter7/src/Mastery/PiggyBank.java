@@ -20,41 +20,41 @@ public class PiggyBank {
 	
 	}
 	
-	public void plusPenny() {
+	public void plusPenny() { //constructor method for penny
 		penny++;
 	
 	}
 	
-	public void plusnickel() {
+	public void plusNickel() { //constructor method for nickels
 		nickels++;
 	
 	}
 	
-	public void plusDime() {
+	public void plusDime() { //constructor method for dimes
 		dimes++;
 	
 	}
 	
-	public void plusQuarters() {
+	public void plusQuarter() { //constructor method for quarters
 		quarters++;
 	
 	}
 	
-	public void takeMoneyOut() {
+	public void takeAllMoneyOut() { //if user chooses to take out all money, then each variable becomes 0. Leading to a total of 0 in bank account.
 		penny = 0;
 		nickels = 0;
 		dimes = 0;
 		quarters = 0;
 	}
 	
-	public double gTotal () {
+	public double gTotal () { //constructor method to properly calculate the total amount of money
 		
 		return (penny * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
 
 	}
 	
 	public void  showTotal() {
-		System.out.printf("Your total in the Bank is: $%.2f\\n", gTotal());
+		System.out.printf("Your total in the Bank is: $%.2f\n", gTotal()); //print total
 	}
 	
 	
@@ -64,4 +64,4 @@ public class PiggyBank {
 		
 	}
 	
-}
+

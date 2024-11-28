@@ -21,12 +21,72 @@ public class MySavings {
 		Scanner input = new Scanner(System.in);
 		// import for user input
 		
-		System.out.println("Enter your initial balance in dollars: "); //declare initial balance
-		double iBalance = input.nextDouble();
+		PiggyBank piggy = new PiggyBank(); //variable name linking to other class
 		
-		//Piggy bank
+		int user_choice;
+
+		do { //do while loop to excute this 
+			
+			System.out.println("1. Show total in bank");
+			System.out.println("2. Add a penny");
+			System.out.println("3. Add a nickel");
+			System.out.println("4. Add a dime");
+			System.out.println("5. Add a quarter");
+			System.out.println("6. Take all money out");
+			System.out.println("0. to quit");
+			System.out.println("Enter your choice: ");
+			System.out.println("");
+			
+			user_choice = input.nextInt();
+			
+			switch (user_choice) {
+			
+			case 1: 
+				piggy.showTotal(); //show user total
+				break;
+				
+			case 2: 
+				piggy.plusPenny();
+				System.out.println("Add a penny.");  //add to bank account
+				break;
+				
+			case 3: 
+				piggy.plusNickel(); //add to bank account
+				System.out.println("Add a nickel.");
+				break;
+				
+			case 4: 
+				piggy.plusDime();
+				System.out.println("Add a dime.");  //add to bank account
+				break;
+				
+			case 5: 
+				piggy.plusQuarter();
+				System.out.println("Add a quarter");  //add to bank account
+				break;
+				
+			case 6: 
+				piggy.takeAllMoneyOut(); //make total money = 0
+				break;
+				
+			case 0: 
+				System.out.print("Ok, Bye."); //end code
+				input.close(); //close the scanner
+				break;
+				
+			default:
+				System.out.println("That wasn't an option, try again!"); //make sure user enters valid option
+			
+			
+			}
+			
+		} while (user_choice != 0); //while loop to make sure user_choice isn't 0, and if it is, the code won't run again
 		
-		piggybank userbank = new piggybank (iBalance);
+
+		
+		
+		
+		
 
 	}
 
