@@ -28,18 +28,18 @@ public class Food {
 	
 	public void saladPrice(double salad) {
 		salads = salad * 2;
-		System.out.println("Each hamburger has 1.0g of fat, 11.0g of carbs, and 5g of fiber.");
+		System.out.println("Each salad has 1.0g of fat, 11.0g of carbs, and 5g of fiber.");
 		System.out.println("");
 		
 	}
 	public void ffPrice(double Ff) {
 		FF = Ff * 1.30;
-		System.out.println("Each hamburger has 11.0g of fat, 36.0g of carbs, and 4g of fiber.");
+		System.out.println("French Fries have 11.0g of fat, 36.0g of carbs, and 4g of fiber.");
 		System.out.println("");
 	}
 	public void sodaPrice(double Soda) {
 		sodas = Soda * 0.95;
-		System.out.println("Each hamburger has 0.0g of fat, 38.0g of carbs, and 0g of fiber.");
+		System.out.println("Each soda has 0.0g of fat, 38.0g of carbs, and 0g of fiber.");
 		System.out.println("");
 	}
 	
