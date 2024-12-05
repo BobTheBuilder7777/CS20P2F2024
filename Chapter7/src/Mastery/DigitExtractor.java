@@ -1,4 +1,15 @@
+/*
 
+Program: DigitExtractor.java          Date: November 25th, 2024
+
+Purpose: Create a DigitExtractor application that prompts the user for an integer and then displays the ones, tens, and hundreds digit of the number.
+
+Author: Rishi Bhalla 
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
 
 package Mastery;
 
@@ -61,12 +72,17 @@ public class DigitExtractor {
 		}
 
 
-		
-		
-		
-		
-		
-
 	}
 
 }
+
+/* Screen Dump
+
+Paste the output of your code here
+
+TestCase1:
+
+
+
+
+*/

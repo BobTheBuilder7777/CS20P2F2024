@@ -1,7 +1,17 @@
-package Mastery;
+/*
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
+Program: PiggyBank.java          Date: November 20th, 2024
+
+Purpose: Create a MySavings application that displays a menu of choices for entering pennies, nickels, dimes, and quarters into a piggy bank and then prompts the user to make a selection.
+
+Author: Rishi Bhalla 
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
+
+package Mastery;
 
 public class PiggyBank {
 
@@ -11,7 +21,7 @@ public class PiggyBank {
 	private int quarters; //declare penny, dimes, nickels, and quarters variable as private
 	
 	
-	public PiggyBank() { //constructor method
+	public PiggyBank() { //Object piggybank
 		
 		penny = 0;
 		nickels = 0;
