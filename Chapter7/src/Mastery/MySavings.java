@@ -99,6 +99,55 @@ Paste the output of your code here
 
 TestCase1:
 
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take all money out
+0. to quit
+Enter your choice: 
+
+1
+Your total in the Bank is: $0.00
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take all money out
+0. to quit
+Enter your choice: 
+
+0
+Ok, Bye.
+
+TestCase2:
+
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take all money out
+0. to quit
+Enter your choice: 
+
+4
+Add a dime.
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take all money out
+0. to quit
+Enter your choice: 
+
+0
+Ok, Bye.
+
+
 
 
 

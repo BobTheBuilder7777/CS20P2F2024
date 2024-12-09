@@ -17,24 +17,24 @@ public class Digit {
 	
 	private int number;
 	
-	public Digit(int digit){
+	public Digit(int digit){ //digit object
 		number = digit;
 		
 	}
 	
-	public int Whole() {
+	public int Whole() { //constructor method to display whole number
 		return number;
 	}
 	
-	public int Hundreds() {
+	public int Hundreds() { //constructor method for hundreds place calculation
 		return (number / 100) %10;
 	}
 	
-	public int tens() {
+	public int tens() { // constructor method for tens place calculation
 		return (number / 10)%10;
 	}
 	
-	public int ones() {
+	public int ones() { // constructor method for ones place calculation
 		return number % 10;
 	}
 	
