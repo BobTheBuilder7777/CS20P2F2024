@@ -3,19 +3,19 @@ package SkillBuilder;
 public class CP2Test {
 	public static void main(String[] args) {
 
-		//creating two circle objects using overloaded constructor method
-		CP2of4 spot = new CP2of4();
 		
-		CP2of4 spot1 = new CP2of4(3);
+		CP2of4 point = new CP2of4();
 		
-		//making first circle objects' radius to the new radius
-		spot.setRadius(6);
+		CP2of4 point1 = new CP2of4(3);
 		
-		//printing area and circumference of both circles
-		System.out.println("Circle radius: " + spot.area());
-		System.out.println("Circle circumference: " + spot.circumference());
 		
-		System.out.println("Circle radius: " + spot1.area());
-		System.out.println("Circle circumference: " + spot1.circumference());
+		point.setRadius(6);
+		
+		
+		System.out.println("The radius of the circle is: " + point.area());
+		System.out.println("The circumfrrence of the circle is: " + point.circumference());
+		
+		System.out.println("The radius of the circle is: " + point1.area());
+		System.out.println("The circumference of the circle is: " + point1.circumference());
 	}
 }

@@ -1,12 +1,11 @@
 package SkillBuilder;
 
-public class CP3Test {
-
+public class CP4Test {
 	public static void main(String[] args) {
 		
 		
-		CP3of4 point = new CP3of4();
-		CP3of4 point1 = new CP3of4(3);
+		CP4of4 point = new CP4of4();
+		CP4of4 point1 = new CP4of4(3);
 		
 		
 		point.setRad(6);
@@ -19,8 +18,17 @@ public class CP3Test {
 		System.out.println("Curcumference of circle: " + point1.circumference());
 		
 		
-		CP3of4.AreaFormula();
-
+		CP4of4.AreaFormula();
+		
+		
+		if (point.equals(point1)) {
+			 System.out.println("Objects are the equal/the same.");
+			 } else {
+			 System.out.println("Objects are not equal/the same.");
+			 }
+		
+		
+		System.out.println(point);
+		System.out.println(point1);
 	}
-	
 }

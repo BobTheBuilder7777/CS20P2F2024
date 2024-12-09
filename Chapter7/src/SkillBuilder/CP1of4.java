@@ -66,7 +66,7 @@ public class CP1of4
 	{
 		String circ;
 		
-		circ = "Circle has radius "+ rad;
+		circ = "Circle radius is "+ rad;
 		
 		return(circ);
 	}
