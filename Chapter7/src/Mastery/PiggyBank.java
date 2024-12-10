@@ -21,7 +21,7 @@ public class PiggyBank {
 	private int quarters; //declare penny, dimes, nickels, and quarters variable as private
 	
 	
-	public PiggyBank() { //Object piggybank
+	public PiggyBank() { //Constructor method piggybank
 		
 		penny = 0;
 		nickels = 0;
@@ -30,22 +30,22 @@ public class PiggyBank {
 	
 	}
 	
-	public void plusPenny() { //constructor method for penny
+	public void plusPenny() { // method for penny
 		penny++;
 	
 	}
 	
-	public void plusNickel() { //constructor method for nickels
+	public void plusNickel() { // method for nickels
 		nickels++;
 	
 	}
 	
-	public void plusDime() { //constructor method for dimes
+	public void plusDime() { // method for dimes
 		dimes++;
 	
 	}
 	
-	public void plusQuarter() { //constructor method for quarters
+	public void plusQuarter() { // method for quarters
 		quarters++;
 	
 	}
@@ -57,7 +57,7 @@ public class PiggyBank {
 		quarters = 0;
 	}
 	
-	public double gTotal () { //constructor method to properly calculate the total amount of money
+	public double gTotal () { // method to properly calculate the total amount of money
 		
 		return (penny * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
 

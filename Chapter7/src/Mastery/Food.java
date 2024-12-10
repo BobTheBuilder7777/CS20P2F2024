@@ -34,14 +34,14 @@ public class Food {
 
 
 
-	public String toString() { //Constructor method which formats the information for each food item
+	public String toString() { // method which formats the information for each food item
 		String information;
 		information = "Each " + itemNa + " has " + fat + "g of fat, " + carb + "g of carbs, and " + fiber + "g of fiber.";
 		return information; //returns 
 		
 	} //this returns
 	
-	public static double getPrice(double burger, double FF, double salad, double soda) { //Constructor method which contains the calculations for the final price
+	public static double getPrice(double burger, double FF, double salad, double soda) { //method which contains the calculations for the final price
 	
 	
 		order = burger * 1.85;

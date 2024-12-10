@@ -21,7 +21,7 @@ public class MySavings {
 		Scanner input = new Scanner(System.in);
 		// import for user input
 		
-		PiggyBank piggy = new PiggyBank(); //variable name linking to other class
+		PiggyBank piggy = new PiggyBank(); //Object name (piggy) linking to other class
 		
 		int user_choice;
 

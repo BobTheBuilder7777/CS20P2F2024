@@ -25,7 +25,7 @@ public class LunchOrder {
 		
 		
 		
-		//Setting the parameters
+		//Setting the parameters for the object
 		Food burgers = new Food("burger", 1.85, 9, 33, 1);
 		Food fries = new Food("fries", 1.3, 11, 36, 4);
 		Food salads = new Food("salads", 2, 1, 11, 5);
